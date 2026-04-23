@@ -1,0 +1,141 @@
+提示词:
+【核心角色】
+你是一个资深的 Linux 性能优化和 SRE 工程师。请帮我写一套生产级的 CPU Profiling 工具，包含两个 Bash 脚本和一个 systemd 服务文件。
+【项目背景】
+使用 Linux 内核自带的 perf 工具，封装一个"黑匣子"式的持续 CPU 采样系统。
+脚本一负责 7x24 持续采集，脚本二负责按时间点回溯生成火焰图，systemd 服务负责进程保活。
+设计原则：可靠性优先、代码与配置分离、进程管理交给 systemd。
+【配置文件】
+所有组件共享配置文件 /home/hongchu/code/simple-cpu-profiling/config/profiler.conf：
+  # 采样频率（Hz）
+  SAMPLE_FREQ=99
+  # 切片间隔（秒）
+  SLICE_INTERVAL=10
+  # 输出目录
+  OUTPUT_DIR="/home/hongchu/code/simple-cpu-profiling/log/profiler"
+  # 数据保留时长（分钟），超过此时长的旧切片会被自动删除，1440 = 24 小时
+  RETENTION_MINUTES=1440
+  # 清理检查间隔（秒）
+  CLEANUP_INTERVAL=600
+  # PID 文件路径
+  PID_FILE="/home/hongchu/code/simple-cpu-profiling/run/profiler.pid"
+  # 日志文件路径
+  LOG_FILE="/home/hongchu/code/simple-cpu-profiling/log/profiler/profiler.log"
+
+══════════════════════════════════════════════
+【脚本一】profiler_daemon.sh —— 7x24 持续采集守护进程
+══════════════════════════════════════════════
+路径：/home/hongchu/code/simple-cpu-profiling/scripts/profiler_daemon.sh
+【重要：进程管理策略】
+- 脚本的 start 命令会被 systemd 服务调用
+- 脚本只需在前台启动 while 循环即可，不用自己后台化
+- 但如果用户直接在终端运行，也要支持后台运行
+- 后台运行使用：( while true; do ... done ) & 配合 disown 解绑终端
+- 所有 perf 输出必须重定向，不能污染终端
+【功能清单】
+1. 三个命令行参数：
+   - start：启动持续采集循环
+   - stop：终止采集进程
+   - status：查看运行状态
+2. do_start() 函数逻辑：
+   - 加载配置文件
+   - 检查 perf 命令可用性（command -v perf），不可用则报错退出
+   - 检查 perf_event_paranoid 权限，值 >= 2 时输出提示后退出（不要暴力修改）
+   - 创建输出目录和 PID 文件所在目录（mkdir -p）
+   - 检查并清理残留的旧 PID 文件（进程已死但文件还在的情况）
+   - 检查是否已有 profiler 进程在运行，有则拒绝重复启动
+   - 后台启动 while 循环：( while true; do ... done ) &
+   - 用 disown 解绑终端，防止 SSH 断开时进程被 SIGHUP 杀死
+   - 循环体内容：
+     a) perf record -a -g -F ${SAMPLE_FREQ} -o "${OUTPUT_DIR}/perf_$(date +%Y%m%d_%H%M%S).data" -- sleep ${SLICE_INTERVAL} &>> "$LOG_FILE" || true
+     b) log "INFO" "slice completed: perf_$(date +%Y%m%d_%H%M%S).data"
+     c) cleanup_counter=$((cleanup_counter + 1))
+     d) if [ $((cleanup_counter % 10)) -eq 0 ]; then
+          find "${OUTPUT_DIR}" -name "perf_*.data" -mmin +${RETENTION_MINUTES} -delete &>> "$LOG_FILE" || true
+          log "INFO" "cleanup executed"
+        fi
+   - 把后台 while 循环子 shell 的 PID 写入 PID 文件
+   - 记录启动日志
+3. do_stop() 函数逻辑：
+   - 检查 PID 文件是否存在，不存在则提示"未在运行"并退出
+   - 读取 PID，检查对应进程是否存在
+   - 进程已死但 PID 文件在：提示异常、清理 PID 文件后退出
+   - 进程存活：先发 SIGTERM 优雅终止
+   - 等待 2 秒后检查进程是否仍存在
+   - 若仍存在，发 SIGKILL 强制终止
+   - 删除 PID 文件并记录停止日志
+4. do_status() 函数逻辑：
+   - PID 文件不存在 → 输出 "profiler is not running"
+   - PID 文件存在且进程存活 → 输出 "profiler is running, PID: xxxx"
+   - PID 文件存在但进程已死 → 输出 "stale PID file found, profiler may have crashed"，自动清理 PID 文件
+
+【代码规范】
+- 文件开头注明脚本用途、用法、作者
+- 硬编码所有默认值（防止配置文件缺失时变量未绑定）
+- 使用 set -euo pipefail
+- 使用 trap 捕获 EXIT/INT/TERM 信号，确保 PID 文件被清理
+- 函数分块：load_config()、do_start()、do_stop()、do_status()
+- log() 函数统一输出："[YYYY-MM-DD HH:MM:SS] [级别] 消息内容"
+- 错误输出到 stderr，正常输出到 stdout
+
+══════════════════════════════════════════════
+【脚本二】generate_flamegraph.sh —— 按时间点生成火焰图
+══════════════════════════════════════════════
+路径：/home/hongchu/code/simple-cpu-profiling/scripts/generate_flamegraph.sh
+【功能需求】
+从 profiler_daemon.sh 采集的 .data 切片中，找到最接近指定时间点的切片，生成火焰图 SVG。
+【输入参数】
+- 接受一个时间参数，格式 "HH:MM" 或 "HH:MM:SS"
+- 不传参数则默认使用当前时间
+【执行逻辑】
+1. 加载配置文件 ../config/profiler.conf，获取 OUTPUT_DIR
+2. 检查 OUTPUT_DIR 是否存在且包含 .data 文件，没有则报错退出
+3. 解析用户输入的时间，在 OUTPUT_DIR 中找到时间戳最接近的 perf_*.data 文件
+4. 检查 /opt/FlameGraph/ 目录是否存在，不存在则输出安装命令并退出
+5. 执行火焰图生成管道：
+   perf script -i <匹配到的.data文件> | /opt/FlameGraph/stackcollapse-perf.pl | /opt/FlameGraph/flamegraph.pl > flamegraph_<时间戳>.svg
+6. 输出火焰图文件完整路径
+【代码规范】
+- 使用 set -euo pipefail
+- 函数分块：load_config()、find_data_file()、generate_flamegraph()
+- 每个步骤失败时输出清晰的错误信息
+
+══════════════════════════════════════════════
+【脚本三】profiler.service —— systemd 服务文件
+══════════════════════════════════════════════
+路径：/home/hongchu/code/simple-cpu-profiling/config/profiler.service
+【要求】
+[Unit]
+Description=Continuous CPU Profiler Daemon   # 服务描述，systemctl status 时会显示
+After=network.target                          			# 等网络就绪后再启动
+[Service]
+Type=simple                                   			# 服务类型：直接运行 ExecStart 的命令
+ExecStart=.../profiler_daemon.sh start         	# 启动时执行这个
+ExecStop=.../profiler_daemon.sh stop          	# 停止时执行这个
+Restart=always                                			# 进程挂了自动拉起来
+RestartSec=10                                 			# 等 10 秒再拉，防止抖死
+MemoryMax=512M                                		# 内存上限，超过就杀
+CPUQuota=3%                                   			# CPU 占用上限，不让你吃满
+StandardOutput=journal                        		# 日志输出到 systemd journal
+StandardError=journal                         			# 错误也输出到 journal
+[Install]
+WantedBy=multi-user.target                   	 	# 开机自启（多用户模式启动时运行）
+【安装说明】
+在脚本输出后附带一段安装步骤：
+sudo cp config/profiler.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable profiler
+sudo systemctl start profiler
+sudo systemctl status profiler
+
+══════════════════════════════════════════════
+【输出格式】
+1. 先输出脚本一（profiler_daemon.sh），完整代码
+2. 用分隔线隔开
+3. 再输出脚本二（generate_flamegraph.sh），完整代码
+4. 用分隔线隔开
+5. 最后输出 systemd 服务文件（profiler.service）
+6. 最后附带安装步骤
+
+不要分段输出单个文件，不要省略任何部分，不要使用"此处省略"等占位符。
+
