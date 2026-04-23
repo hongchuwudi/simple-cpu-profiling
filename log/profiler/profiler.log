@@ -1,0 +1,684 @@
+[2026-04-23 22:41:04] [INFO] profiler started in background, PID: 2871303
+[2026-04-23 22:41:04] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:41:15] [INFO] profiler started in background, PID: 2871892
+[2026-04-23 22:41:16] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:41:27] [INFO] profiler started in background, PID: 2872566
+[2026-04-23 22:41:28] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.589 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_224127.data ]
+[2026-04-23 22:41:48] [INFO] profiler started in background, PID: 2873732
+[2026-04-23 22:41:49] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:42:00] [INFO] profiler started in background, PID: 2874446
+[2026-04-23 22:42:01] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.593 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_224200.data (27 samples) ]
+[2026-04-23 22:42:27] [INFO] profiler started in background, PID: 2875941
+[2026-04-23 22:42:28] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.572 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_224227.data (18 samples) ]
+[2026-04-23 22:42:49] [INFO] profiler started in background, PID: 2877116
+[2026-04-23 22:42:50] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.587 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_224249.data ]
+[2026-04-23 22:43:10] [INFO] profiler started in background, PID: 2878411
+[2026-04-23 22:43:11] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.535 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_224310.data (46 samples) ]
+[2026-04-23 22:43:37] [INFO] profiler started in background, PID: 2879903
+[2026-04-23 22:43:38] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.575 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_224337.data (56 samples) ]
+[2026-04-23 22:44:03] [INFO] profiler started in background, PID: 2881285
+[2026-04-23 22:44:05] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.586 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_224403.data ]
+[2026-04-23 22:44:24] [INFO] profiler started in background, PID: 2882504
+[2026-04-23 22:44:25] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.574 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_224424.data (27 samples) ]
+[2026-04-23 22:44:51] [INFO] profiler started in background, PID: 2883895
+[2026-04-23 22:44:52] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.593 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_224451.data (46 samples) ]
+[2026-04-23 22:45:17] [INFO] profiler started in background, PID: 2885348
+[2026-04-23 22:45:18] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.575 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_224517.data (36 samples) ]
+[2026-04-23 22:45:44] [INFO] profiler started in background, PID: 2886896
+[2026-04-23 22:45:45] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.592 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_224544.data (36 samples) ]
+[2026-04-23 22:46:10] [INFO] profiler started in background, PID: 2888441
+[2026-04-23 22:46:11] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.590 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_224610.data (40 samples) ]
+[2026-04-23 22:46:37] [INFO] profiler started in background, PID: 2889916
+[2026-04-23 22:46:38] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.596 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_224637.data (56 samples) ]
+[2026-04-23 22:47:04] [INFO] profiler started in background, PID: 2891390
+[2026-04-23 22:47:05] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.596 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_224704.data (27 samples) ]
+[2026-04-23 22:47:30] [INFO] profiler started in background, PID: 2892794
+[2026-04-23 22:47:31] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.611 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_224730.data (36 samples) ]
+[2026-04-23 22:47:57] [INFO] profiler started in background, PID: 2894266
+[2026-04-23 22:47:58] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:48:09] [INFO] profiler started in background, PID: 2894957
+[2026-04-23 22:48:09] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:48:20] [INFO] profiler started in background, PID: 2895549
+[2026-04-23 22:48:21] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:48:32] [INFO] profiler started in background, PID: 2896252
+[2026-04-23 22:48:33] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:48:43] [INFO] profiler started in background, PID: 2896851
+[2026-04-23 22:48:44] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:48:55] [INFO] profiler started in background, PID: 2897556
+[2026-04-23 22:48:56] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:49:07] [INFO] profiler started in background, PID: 2898245
+[2026-04-23 22:49:08] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:49:13] [INFO] profiler started in background, PID: 2898647
+[2026-04-23 22:49:14] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.603 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_224913.data (18 samples) ]
+[2026-04-23 22:49:40] [INFO] profiler started in background, PID: 2900144
+[2026-04-23 22:49:41] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:49:52] [INFO] profiler started in background, PID: 2900745
+[2026-04-23 22:49:53] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.651 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_224952.data (27 samples) ]
+[2026-04-23 22:50:09] [INFO] profiler started in background, PID: 2901790
+[2026-04-23 22:50:11] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.604 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_225010.data (18 samples) ]
+[2026-04-23 22:50:36] [INFO] profiler started in background, PID: 2903274
+[2026-04-23 22:50:37] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.535 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_225036.data (18 samples) ]
+[2026-04-23 22:51:01] [INFO] profiler started in background, PID: 2904590
+[2026-04-23 22:51:01] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:51:12] [INFO] profiler started in background, PID: 2905270
+[2026-04-23 22:51:12] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:51:23] [INFO] profiler started in background, PID: 2905868
+[2026-04-23 22:51:24] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:51:35] [INFO] profiler started in background, PID: 2906592
+[2026-04-23 22:51:36] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.595 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_225135.data ]
+[2026-04-23 22:51:56] [INFO] profiler started in background, PID: 2907736
+[2026-04-23 22:51:57] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.596 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_225156.data ]
+[2026-04-23 22:52:16] [INFO] profiler started in background, PID: 2908868
+[2026-04-23 22:52:17] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.531 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_225216.data ]
+[2026-04-23 22:52:37] [INFO] profiler started in background, PID: 2910020
+[2026-04-23 22:52:37] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:52:48] [INFO] profiler started in background, PID: 2910631
+[2026-04-23 22:52:49] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.586 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_225248.data ]
+[2026-04-23 22:54:38] [INFO] profiler started in background, PID: 2916805
+[2026-04-23 22:54:38] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:54:48] [INFO] profiler started in background, PID: 2917395
+[2026-04-23 22:54:48] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:54:58] [INFO] profiler started in background, PID: 2917978
+[2026-04-23 22:54:58] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:55:08] [INFO] profiler started in background, PID: 2918573
+[2026-04-23 22:55:09] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:55:19] [INFO] profiler started in background, PID: 2919170
+[2026-04-23 22:55:19] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:55:29] [INFO] profiler started in background, PID: 2919749
+[2026-04-23 22:55:29] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.437 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_225529.data ]
+[2026-04-23 22:55:40] [INFO] profiler started in background, PID: 2920368
+[2026-04-23 22:55:40] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:55:50] [INFO] profiler started in background, PID: 2920940
+[2026-04-23 22:55:51] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:56:01] [INFO] profiler started in background, PID: 2921515
+[2026-04-23 22:56:01] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:56:11] [INFO] profiler started in background, PID: 2922099
+[2026-04-23 22:56:11] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:56:21] [INFO] profiler started in background, PID: 2922676
+[2026-04-23 22:56:21] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.434 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_225621.data ]
+[2026-04-23 22:56:32] [INFO] profiler started in background, PID: 2923292
+[2026-04-23 22:56:33] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:56:43] [INFO] profiler started in background, PID: 2923867
+[2026-04-23 22:56:43] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:56:53] [INFO] profiler started in background, PID: 2924447
+[2026-04-23 22:56:53] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:57:09] [INFO] profiler started in background, PID: 2925364
+[2026-04-23 22:57:09] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:57:19] [INFO] profiler started in background, PID: 2925946
+[2026-04-23 22:57:19] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:57:29] [INFO] profiler started in background, PID: 2926540
+[2026-04-23 22:57:30] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:57:40] [INFO] profiler started in background, PID: 2927121
+[2026-04-23 22:57:40] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:57:50] [INFO] profiler started in background, PID: 2927694
+[2026-04-23 22:57:50] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:58:00] [INFO] profiler started in background, PID: 2928270
+[2026-04-23 22:58:00] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:58:06] [INFO] profiler started in background, PID: 2928540
+[2026-04-23 22:58:10] [INFO] profiler started in background, PID: 2928884
+[2026-04-23 22:58:11] [WARN] profiler is not running (no PID file)
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.396 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_225806.data ]
+[2026-04-23 22:58:21] [INFO] profiler started in background, PID: 2929372
+[2026-04-23 22:58:21] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:58:31] [INFO] profiler started in background, PID: 2929970
+[2026-04-23 22:58:31] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:58:41] [INFO] profiler started in background, PID: 2930556
+[2026-04-23 22:58:41] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.423 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_225841.data ]
+[2026-04-23 22:58:52] [INFO] profiler started in background, PID: 2931227
+[2026-04-23 22:58:53] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:59:03] [INFO] profiler started in background, PID: 2931874
+[2026-04-23 22:59:03] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:59:13] [INFO] profiler started in background, PID: 2932450
+[2026-04-23 22:59:13] [WARN] profiler is not running (no PID file)
+failed to signal wakeup fd, error: Bad file descriptor
+[ perf record: Woken up 0 times to write data ]
+[ perf record: Captured and wrote 0.422 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_225913.data ]
+[2026-04-23 22:59:24] [INFO] profiler started in background, PID: 2933038
+[2026-04-23 22:59:24] [WARN] profiler is not running (no PID file)
+[2026-04-23 22:59:34] [INFO] profiler daemon started, PID: 2933638
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.405 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_225934.data ]
+[2026-04-23 22:59:46] [INFO] slice completed: perf_20260423_225934.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.393 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_225946.data ]
+[2026-04-23 22:59:57] [INFO] slice completed: perf_20260423_225946.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.424 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_225957.data ]
+[2026-04-23 23:00:08] [INFO] slice completed: perf_20260423_225957.data
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 1.406 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230008.data ]
+[2026-04-23 23:00:19] [INFO] slice completed: perf_20260423_230008.data
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 1.354 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230019.data ]
+[2026-04-23 23:00:30] [INFO] slice completed: perf_20260423_230019.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.387 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230030.data ]
+[2026-04-23 23:00:41] [INFO] slice completed: perf_20260423_230030.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.383 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230042.data ]
+[2026-04-23 23:00:53] [INFO] slice completed: perf_20260423_230042.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.404 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230053.data ]
+[2026-04-23 23:01:04] [INFO] slice completed: perf_20260423_230053.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.390 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230104.data ]
+[2026-04-23 23:01:15] [INFO] slice completed: perf_20260423_230104.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.387 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230115.data ]
+[2026-04-23 23:01:26] [INFO] slice completed: perf_20260423_230115.data
+[2026-04-23 23:01:26] [INFO] cleanup executed
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.406 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230126.data ]
+[2026-04-23 23:01:37] [INFO] slice completed: perf_20260423_230126.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.385 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230137.data ]
+[2026-04-23 23:01:48] [INFO] slice completed: perf_20260423_230137.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.363 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230148.data ]
+[2026-04-23 23:02:00] [INFO] slice completed: perf_20260423_230148.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.385 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230200.data ]
+[2026-04-23 23:02:11] [INFO] slice completed: perf_20260423_230200.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.377 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230211.data ]
+[2026-04-23 23:02:22] [INFO] slice completed: perf_20260423_230211.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.401 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230222.data ]
+[2026-04-23 23:02:33] [INFO] slice completed: perf_20260423_230222.data
+[ perf record: Woken up 4 times to write data ]
+[ perf record: Captured and wrote 1.452 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230233.data ]
+[2026-04-23 23:02:44] [INFO] slice completed: perf_20260423_230233.data
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 1.335 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230244.data ]
+[2026-04-23 23:02:55] [INFO] slice completed: perf_20260423_230244.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.438 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230255.data ]
+[2026-04-23 23:03:07] [INFO] slice completed: perf_20260423_230255.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.395 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230307.data ]
+[2026-04-23 23:03:18] [INFO] slice completed: perf_20260423_230307.data
+[2026-04-23 23:03:18] [INFO] cleanup executed
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.390 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230318.data ]
+[2026-04-23 23:03:29] [INFO] slice completed: perf_20260423_230318.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.420 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230329.data ]
+[2026-04-23 23:03:40] [INFO] slice completed: perf_20260423_230329.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.404 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230340.data ]
+[2026-04-23 23:03:51] [INFO] slice completed: perf_20260423_230340.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.451 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230351.data ]
+[2026-04-23 23:04:02] [INFO] slice completed: perf_20260423_230351.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.433 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230402.data ]
+[2026-04-23 23:04:13] [INFO] slice completed: perf_20260423_230402.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.436 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230413.data ]
+[2026-04-23 23:04:24] [INFO] slice completed: perf_20260423_230413.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.401 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230424.data ]
+[2026-04-23 23:04:35] [INFO] slice completed: perf_20260423_230424.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.422 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230435.data ]
+[2026-04-23 23:04:46] [INFO] slice completed: perf_20260423_230435.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.402 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230446.data ]
+[2026-04-23 23:04:57] [INFO] slice completed: perf_20260423_230446.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.459 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230457.data ]
+[2026-04-23 23:05:08] [INFO] slice completed: perf_20260423_230457.data
+[2026-04-23 23:05:08] [INFO] cleanup executed
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.447 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230508.data ]
+[2026-04-23 23:05:20] [INFO] slice completed: perf_20260423_230508.data
+[ perf record: Woken up 4 times to write data ]
+[ perf record: Captured and wrote 1.508 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230520.data ]
+[2026-04-23 23:05:31] [INFO] slice completed: perf_20260423_230520.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.350 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230531.data ]
+[2026-04-23 23:05:42] [INFO] slice completed: perf_20260423_230531.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.440 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230542.data ]
+[2026-04-23 23:05:53] [INFO] slice completed: perf_20260423_230542.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.419 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230553.data ]
+[2026-04-23 23:06:04] [INFO] slice completed: perf_20260423_230553.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.400 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230604.data ]
+[2026-04-23 23:06:15] [INFO] slice completed: perf_20260423_230604.data
+[ perf record: Woken up 4 times to write data ]
+[ perf record: Captured and wrote 1.443 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230615.data ]
+[2026-04-23 23:06:27] [INFO] slice completed: perf_20260423_230615.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.411 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230627.data ]
+[2026-04-23 23:06:38] [INFO] slice completed: perf_20260423_230627.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.397 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230638.data ]
+[2026-04-23 23:06:49] [INFO] slice completed: perf_20260423_230638.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.400 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230649.data ]
+[2026-04-23 23:07:00] [INFO] slice completed: perf_20260423_230649.data
+[2026-04-23 23:07:00] [INFO] cleanup executed
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 1.357 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230700.data ]
+[2026-04-23 23:07:11] [INFO] slice completed: perf_20260423_230700.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.444 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230711.data ]
+[2026-04-23 23:07:22] [INFO] slice completed: perf_20260423_230711.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.425 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230722.data ]
+[2026-04-23 23:07:34] [INFO] slice completed: perf_20260423_230722.data
+[ perf record: Woken up 4 times to write data ]
+[ perf record: Captured and wrote 1.435 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230734.data ]
+[2026-04-23 23:07:45] [INFO] slice completed: perf_20260423_230734.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.421 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230745.data ]
+[2026-04-23 23:07:56] [INFO] slice completed: perf_20260423_230745.data
+[ perf record: Woken up 4 times to write data ]
+[ perf record: Captured and wrote 1.464 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230756.data ]
+[2026-04-23 23:08:07] [INFO] slice completed: perf_20260423_230756.data
+[ perf record: Woken up 4 times to write data ]
+[ perf record: Captured and wrote 1.437 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230807.data ]
+[2026-04-23 23:08:18] [INFO] slice completed: perf_20260423_230807.data
+[ perf record: Woken up 4 times to write data ]
+[ perf record: Captured and wrote 1.468 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230818.data ]
+[2026-04-23 23:08:30] [INFO] slice completed: perf_20260423_230818.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.369 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230830.data ]
+[2026-04-23 23:08:41] [INFO] slice completed: perf_20260423_230830.data
+[ perf record: Woken up 4 times to write data ]
+[ perf record: Captured and wrote 1.512 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230841.data ]
+[2026-04-23 23:08:52] [INFO] slice completed: perf_20260423_230841.data
+[2026-04-23 23:08:52] [INFO] cleanup executed
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.455 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230852.data ]
+[2026-04-23 23:09:03] [INFO] slice completed: perf_20260423_230852.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.398 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230903.data ]
+[2026-04-23 23:09:14] [INFO] slice completed: perf_20260423_230903.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.408 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230914.data ]
+[2026-04-23 23:09:25] [INFO] slice completed: perf_20260423_230914.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.428 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230925.data ]
+[2026-04-23 23:09:37] [INFO] slice completed: perf_20260423_230925.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.430 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230937.data ]
+[2026-04-23 23:09:48] [INFO] slice completed: perf_20260423_230937.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.430 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230948.data ]
+[2026-04-23 23:09:59] [INFO] slice completed: perf_20260423_230948.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.479 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_230959.data ]
+[2026-04-23 23:10:10] [INFO] slice completed: perf_20260423_230959.data
+[ perf record: Woken up 4 times to write data ]
+[ perf record: Captured and wrote 1.419 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231010.data ]
+[2026-04-23 23:10:21] [INFO] slice completed: perf_20260423_231010.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.428 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231021.data ]
+[2026-04-23 23:10:32] [INFO] slice completed: perf_20260423_231021.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.352 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231032.data ]
+[2026-04-23 23:10:44] [INFO] slice completed: perf_20260423_231032.data
+[2026-04-23 23:10:44] [INFO] cleanup executed
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.407 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231044.data ]
+[2026-04-23 23:10:55] [INFO] slice completed: perf_20260423_231044.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.395 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231055.data ]
+[2026-04-23 23:11:06] [INFO] slice completed: perf_20260423_231055.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.393 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231106.data ]
+[2026-04-23 23:11:17] [INFO] slice completed: perf_20260423_231106.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.392 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231117.data ]
+[2026-04-23 23:11:28] [INFO] slice completed: perf_20260423_231117.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.354 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231128.data ]
+[2026-04-23 23:11:39] [INFO] slice completed: perf_20260423_231128.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.395 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231139.data ]
+[2026-04-23 23:11:51] [INFO] slice completed: perf_20260423_231139.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.385 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231151.data ]
+[2026-04-23 23:12:02] [INFO] slice completed: perf_20260423_231151.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.391 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231202.data ]
+[2026-04-23 23:12:13] [INFO] slice completed: perf_20260423_231202.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.391 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231213.data ]
+[2026-04-23 23:12:24] [INFO] slice completed: perf_20260423_231213.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.462 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231224.data ]
+[2026-04-23 23:12:35] [INFO] slice completed: perf_20260423_231224.data
+[2026-04-23 23:12:35] [INFO] cleanup executed
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.395 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231235.data ]
+[2026-04-23 23:12:46] [INFO] slice completed: perf_20260423_231235.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.386 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231246.data ]
+[2026-04-23 23:12:58] [INFO] slice completed: perf_20260423_231246.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.333 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231258.data ]
+[2026-04-23 23:13:09] [INFO] slice completed: perf_20260423_231258.data
+[ perf record: Woken up 4 times to write data ]
+[ perf record: Captured and wrote 1.445 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231309.data ]
+[2026-04-23 23:13:20] [INFO] slice completed: perf_20260423_231309.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.418 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231320.data ]
+[2026-04-23 23:13:31] [INFO] slice completed: perf_20260423_231320.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.397 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231331.data ]
+[2026-04-23 23:13:42] [INFO] slice completed: perf_20260423_231331.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.410 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231342.data ]
+[2026-04-23 23:13:53] [INFO] slice completed: perf_20260423_231342.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.405 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231353.data ]
+[2026-04-23 23:14:05] [INFO] slice completed: perf_20260423_231353.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.406 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231405.data ]
+[2026-04-23 23:14:16] [INFO] slice completed: perf_20260423_231405.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.429 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231416.data ]
+[2026-04-23 23:14:27] [INFO] slice completed: perf_20260423_231416.data
+[2026-04-23 23:14:27] [INFO] cleanup executed
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.367 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231427.data ]
+[2026-04-23 23:14:38] [INFO] slice completed: perf_20260423_231427.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.386 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231438.data ]
+[2026-04-23 23:14:49] [INFO] slice completed: perf_20260423_231438.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.395 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231449.data ]
+[2026-04-23 23:15:01] [INFO] slice completed: perf_20260423_231449.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.384 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231501.data ]
+[2026-04-23 23:15:12] [INFO] slice completed: perf_20260423_231501.data
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 1.385 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231512.data ]
+[2026-04-23 23:15:23] [INFO] slice completed: perf_20260423_231512.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.404 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231523.data ]
+[2026-04-23 23:15:34] [INFO] slice completed: perf_20260423_231523.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.391 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231534.data ]
+[2026-04-23 23:15:45] [INFO] slice completed: perf_20260423_231534.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.394 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231545.data ]
+[2026-04-23 23:15:56] [INFO] slice completed: perf_20260423_231545.data
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 1.332 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231556.data ]
+[2026-04-23 23:16:07] [INFO] slice completed: perf_20260423_231556.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.386 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231607.data ]
+[2026-04-23 23:16:19] [INFO] slice completed: perf_20260423_231607.data
+[2026-04-23 23:16:19] [INFO] cleanup executed
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.411 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231619.data ]
+[2026-04-23 23:16:30] [INFO] slice completed: perf_20260423_231619.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.420 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231630.data ]
+[2026-04-23 23:16:41] [INFO] slice completed: perf_20260423_231630.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.416 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231641.data ]
+[2026-04-23 23:16:52] [INFO] slice completed: perf_20260423_231641.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.420 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231652.data ]
+[2026-04-23 23:17:03] [INFO] slice completed: perf_20260423_231652.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.411 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231703.data ]
+[2026-04-23 23:17:15] [INFO] slice completed: perf_20260423_231703.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.410 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231715.data ]
+[2026-04-23 23:17:26] [INFO] slice completed: perf_20260423_231715.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.364 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231726.data ]
+[2026-04-23 23:17:37] [INFO] slice completed: perf_20260423_231726.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.402 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231737.data ]
+[2026-04-23 23:17:48] [INFO] slice completed: perf_20260423_231737.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.404 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231748.data ]
+[2026-04-23 23:17:59] [INFO] slice completed: perf_20260423_231748.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.423 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231759.data ]
+[2026-04-23 23:18:10] [INFO] slice completed: perf_20260423_231759.data
+[2026-04-23 23:18:10] [INFO] cleanup executed
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.401 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231810.data ]
+[2026-04-23 23:18:22] [INFO] slice completed: perf_20260423_231810.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.403 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231822.data ]
+[2026-04-23 23:18:33] [INFO] slice completed: perf_20260423_231822.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.385 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231833.data ]
+[2026-04-23 23:18:44] [INFO] slice completed: perf_20260423_231833.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.385 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231844.data ]
+[2026-04-23 23:18:55] [INFO] slice completed: perf_20260423_231844.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.335 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231855.data ]
+[2026-04-23 23:19:06] [INFO] slice completed: perf_20260423_231855.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.379 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231906.data ]
+[2026-04-23 23:19:17] [INFO] slice completed: perf_20260423_231906.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.381 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231917.data ]
+[2026-04-23 23:19:29] [INFO] slice completed: perf_20260423_231917.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.405 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231929.data ]
+[2026-04-23 23:19:40] [INFO] slice completed: perf_20260423_231929.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.386 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231940.data ]
+[2026-04-23 23:19:51] [INFO] slice completed: perf_20260423_231940.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.406 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_231951.data ]
+[2026-04-23 23:20:02] [INFO] slice completed: perf_20260423_231951.data
+[2026-04-23 23:20:02] [INFO] cleanup executed
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.392 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232002.data ]
+[2026-04-23 23:20:13] [INFO] slice completed: perf_20260423_232002.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.392 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232013.data ]
+[2026-04-23 23:20:24] [INFO] slice completed: perf_20260423_232013.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.364 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232024.data ]
+[2026-04-23 23:20:36] [INFO] slice completed: perf_20260423_232024.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.378 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232036.data ]
+[2026-04-23 23:20:47] [INFO] slice completed: perf_20260423_232036.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.380 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232047.data ]
+[2026-04-23 23:20:58] [INFO] slice completed: perf_20260423_232047.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.396 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232058.data ]
+[2026-04-23 23:21:09] [INFO] slice completed: perf_20260423_232058.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.390 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232109.data ]
+[2026-04-23 23:21:20] [INFO] slice completed: perf_20260423_232109.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.348 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232120.data ]
+[2026-04-23 23:21:31] [INFO] slice completed: perf_20260423_232120.data
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 1.386 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232131.data ]
+[2026-04-23 23:21:43] [INFO] slice completed: perf_20260423_232131.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.379 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232143.data ]
+[2026-04-23 23:21:54] [INFO] slice completed: perf_20260423_232143.data
+[2026-04-23 23:21:54] [INFO] cleanup executed
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.396 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232154.data ]
+[2026-04-23 23:22:05] [INFO] slice completed: perf_20260423_232154.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.384 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232205.data ]
+[2026-04-23 23:22:16] [INFO] slice completed: perf_20260423_232205.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.405 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232216.data ]
+[2026-04-23 23:22:27] [INFO] slice completed: perf_20260423_232216.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.406 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232227.data ]
+[2026-04-23 23:22:38] [INFO] slice completed: perf_20260423_232227.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.403 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232238.data ]
+[2026-04-23 23:22:50] [INFO] slice completed: perf_20260423_232238.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.356 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232250.data ]
+[2026-04-23 23:23:01] [INFO] slice completed: perf_20260423_232250.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.393 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232301.data ]
+[2026-04-23 23:23:12] [INFO] slice completed: perf_20260423_232301.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.398 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232312.data ]
+[2026-04-23 23:23:23] [INFO] slice completed: perf_20260423_232312.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.443 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232323.data ]
+[2026-04-23 23:23:34] [INFO] slice completed: perf_20260423_232323.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.457 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232334.data ]
+[2026-04-23 23:23:45] [INFO] slice completed: perf_20260423_232334.data
+[2026-04-23 23:23:45] [INFO] cleanup executed
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.430 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232345.data ]
+[2026-04-23 23:23:57] [INFO] slice completed: perf_20260423_232345.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.473 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232357.data ]
+[2026-04-23 23:24:08] [INFO] slice completed: perf_20260423_232357.data
+[ perf record: Woken up 4 times to write data ]
+[ perf record: Captured and wrote 1.485 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232408.data ]
+[2026-04-23 23:24:19] [INFO] slice completed: perf_20260423_232408.data
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 1.356 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232419.data ]
+[2026-04-23 23:24:30] [INFO] slice completed: perf_20260423_232419.data
+[ perf record: Woken up 5 times to write data ]
+[ perf record: Captured and wrote 1.488 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232430.data ]
+[2026-04-23 23:24:41] [INFO] slice completed: perf_20260423_232430.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.437 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232441.data ]
+[2026-04-23 23:24:52] [INFO] slice completed: perf_20260423_232441.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.403 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232452.data ]
+[2026-04-23 23:25:04] [INFO] slice completed: perf_20260423_232452.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.413 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232504.data ]
+[2026-04-23 23:25:15] [INFO] slice completed: perf_20260423_232504.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.403 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232515.data ]
+[2026-04-23 23:25:26] [INFO] slice completed: perf_20260423_232515.data
+[ perf record: Woken up 4 times to write data ]
+[ perf record: Captured and wrote 1.469 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232526.data ]
+[2026-04-23 23:25:37] [INFO] slice completed: perf_20260423_232526.data
+[2026-04-23 23:25:37] [INFO] cleanup executed
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.428 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232537.data ]
+[2026-04-23 23:25:48] [INFO] slice completed: perf_20260423_232537.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.395 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232548.data ]
+[2026-04-23 23:25:59] [INFO] slice completed: perf_20260423_232548.data
+[ perf record: Woken up 3 times to write data ]
+[ perf record: Captured and wrote 1.415 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232559.data ]
+[2026-04-23 23:26:11] [INFO] slice completed: perf_20260423_232559.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.405 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232611.data ]
+[2026-04-23 23:26:22] [INFO] slice completed: perf_20260423_232611.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.400 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232622.data ]
+[2026-04-23 23:26:33] [INFO] slice completed: perf_20260423_232622.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.391 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232633.data ]
+[2026-04-23 23:26:44] [INFO] slice completed: perf_20260423_232633.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.388 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232644.data ]
+[2026-04-23 23:26:55] [INFO] slice completed: perf_20260423_232644.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.403 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232655.data ]
+[2026-04-23 23:27:06] [INFO] slice completed: perf_20260423_232655.data
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 1.379 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232706.data ]
+[2026-04-23 23:27:18] [INFO] slice completed: perf_20260423_232706.data
+[2026-04-23 23:27:25] [INFO] stopping profiler, PID: 2933638
+[2026-04-23 23:27:27] [WARN] process did not exit after 2s, sending SIGKILL
+[2026-04-23 23:27:27] [INFO] profiler stopped
+[2026-04-23 23:27:27] [INFO] profiler daemon exiting
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 1.309 MB /home/hongchu/code/simple-cpu-profiling/log/profiler/perf_20260423_232718.data ]

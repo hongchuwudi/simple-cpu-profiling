@@ -1,0 +1,16 @@
+[Unit]
+Description=Continuous CPU Profiler Daemon
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/hongchu/code/simple-cpu-profiling/scripts/profiler_daemon.sh start
+ExecStop=/home/hongchu/code/simple-cpu-profiling/scripts/profiler_daemon.sh stop
+Restart=always
+RestartSec=10
+MemoryMax=512M
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
