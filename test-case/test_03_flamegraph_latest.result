@@ -1,0 +1,28 @@
+root@VM-0-11-ubuntu:/home/hongchu/code/simple-cpu-profiling/test-case# ./test_03_flamegraph_latest.sh 
+=== Test 3: Flamegraph Generation (Latest Slice) ===
+Date: Fri Apr 24 12:07:49 AM CST 2026
+
+[setup] Starting daemon for 22 seconds to collect data...
+[2026-04-24 00:07:50] [INFO] profiler daemon started, PID: 3162245
+[2026-04-24 00:07:52] [INFO] profiler daemon exiting
+[2026-04-24 00:07:52] [INFO] slice completed: perf_20260424_000740.data
+[2026-04-24 00:08:01] [INFO] slice completed: perf_20260424_000750.data
+[2026-04-24 00:08:03] [INFO] slice completed: perf_20260424_000752.data
+[2026-04-24 00:08:12] [INFO] slice completed: perf_20260424_000801.data
+[setup] Stopping daemon...
+[2026-04-24 00:08:14] [INFO] slice completed: perf_20260424_000803.data
+[setup] Available perf data slices: 366
+
+[test] Running generate_flamegraph.sh (no args)...
+Generating flamegraph from: perf_20260424_000754.data
+  slice time : 00-07-54
+  output     : /home/hongchu/code/simple-cpu-profiling/log/profiler/flamegraph_00-07-54.svg
+Done: /home/hongchu/code/simple-cpu-profiling/log/profiler/flamegraph_00-07-54.svg
+
+[test] Generated SVG files: 1
+  File: flamegraph_00-07-54.svg (309486 bytes)
+  PASS: SVG has meaningful size
+
+[test] Verifying SVG structure:
+./test_03_flamegraph_latest.sh: line 83: syntax error near unexpected token `2'
+./test_03_flamegraph_latest.sh: line 83: `for svg in "$OUTPUT_DIR"/flamegraph_*.svg 2>/dev/null; do'

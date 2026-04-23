@@ -1,0 +1,19 @@
+root@VM-0-11-ubuntu:/home/hongchu/code/simple-cpu-profiling/test-case# ./test_05_cleanup_logic.sh 
+=== Test 5: Data Cleanup Logic ===
+Date: Fri Apr 24 12:09:06 AM CST 2026
+
+[test] 5.1: Cleanup command removes old files
+  Created 3 fake old data files in /home/hongchu/code/simple-cpu-profiling/log/profiler/test_cleanup_NAxi1c
+  PASS: all old files cleaned up
+
+[test] 5.2: Recent files are preserved
+  Created 2 recent data files
+  PASS: recent files preserved (2 remain)
+
+[test] 5.3: Cleanup interval in daemon source
+  PASS: cleanup runs every 10 slices (CLEANUP_INTERVAL=600s equivalent)
+
+[test] 5.4: RETENTION_MINUTES consistency
+  PASS: config (1440) == daemon default (1440)
+
+=== Test 5 Complete ===

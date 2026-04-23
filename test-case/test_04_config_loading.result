@@ -1,0 +1,35 @@
+root@VM-0-11-ubuntu:/home/hongchu/code/simple-cpu-profiling/test-case# ./test_04_config_loading.sh 
+=== Test 4: Config Loading & Parameter Validation ===
+Date: Fri Apr 24 12:08:43 AM CST 2026
+
+[test] 4.1: Config file existence and key validation
+  PASS: config file exists at /home/hongchu/code/simple-cpu-profiling/config/profiler.conf
+  PASS: SAMPLE_FREQ=99
+  PASS: SLICE_INTERVAL=10
+  PASS: OUTPUT_DIR="/home/hongchu/code/simple-cpu-profiling/log/profiler"
+  PASS: RETENTION_MINUTES=1440
+  PASS: CLEANUP_INTERVAL=600
+  PASS: PID_FILE="/home/hongchu/code/simple-cpu-profiling/run/profiler.pid"
+  PASS: LOG_FILE="/home/hongchu/code/simple-cpu-profiling/log/profiler/profiler.log"
+
+[test] 4.2: Default value validation
+  PASS: SAMPLE_FREQ = 99 (expected 99)
+  PASS: SLICE_INTERVAL = 10 (expected 10)
+  PASS: RETENTION_MINUTES = 1440 (expected 1440)
+  PASS: CLEANUP_INTERVAL = 600 (expected 600)
+
+[test] 4.3: Daemon respects config values
+[2026-04-24 00:08:44] [INFO] profiler daemon started, PID: 3165708
+[2026-04-24 00:08:46] [INFO] profiler daemon exiting
+[2026-04-24 00:08:46] [INFO] slice completed: perf_20260424_000835.data
+  FAIL: PID file not created
+[2026-04-24 00:08:47] [INFO] profiler daemon exiting
+[2026-04-24 00:08:47] [INFO] slice completed: perf_20260424_000836.data
+
+[test] 4.4: Config vs daemon default consistency
+  PASS: SAMPLE_FREQ config(99) == daemon(99)
+  PASS: SLICE_INTERVAL config(10) == daemon(10)
+  PASS: RETENTION_MINUTES config(1440) == daemon(1440)
+  PASS: CLEANUP_INTERVAL config(600) == daemon(600)
+
+=== Test 4 Complete ===

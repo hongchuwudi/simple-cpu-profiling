@@ -1,0 +1,188 @@
+=== Test 1: Daemon Start / Stop / Status ===
+Date: Thu Apr 23 11:58:19 PM CST 2026
+
+[test] status when not running:
+profiler is not running
+[2026-04-23 23:58:20] [INFO] profiler daemon exiting
+
+[test] starting daemon...
+[2026-04-23 23:58:20] [INFO] profiler daemon started, PID: 3127872
+[test] status when running:
+profiler is not running
+[2026-04-23 23:58:23] [INFO] profiler daemon exiting
+
+[test] PID file content:
+  FAIL: PID file does not exist
+
+[test] stopping daemon...
+[test] status after stop:
+profiler is not running
+[2026-04-23 23:58:25] [INFO] profiler daemon exiting
+
+[test] PID file after stop:
+  PASS: PID file removed
+
+=== Test 1 Complete ===
+[2026-04-23 23:58:31] [INFO] profiler daemon exiting
+[2026-04-23 23:58:31] [INFO] slice completed: perf_20260423_235820.data
+[2026-04-23 23:58:43] [INFO] slice completed: perf_20260423_235831.data
+[2026-04-23 23:58:54] [INFO] slice completed: perf_20260423_235843.data
+[2026-04-23 23:59:05] [INFO] slice completed: perf_20260423_235854.data
+[2026-04-23 23:59:16] [INFO] slice completed: perf_20260423_235905.data
+[2026-04-23 23:59:27] [INFO] slice completed: perf_20260423_235916.data
+[2026-04-23 23:59:38] [INFO] slice completed: perf_20260423_235927.data
+[2026-04-23 23:59:50] [INFO] profiler daemon exiting
+[2026-04-23 23:59:50] [INFO] slice completed: perf_20260423_235938.data
+[2026-04-24 00:00:01] [INFO] slice completed: perf_20260423_235950.data
+[2026-04-24 00:00:11] [INFO] slice completed: perf_20260424_000001.data
+[2026-04-24 00:00:11] [INFO] cleanup executed
+[2026-04-24 00:00:22] [INFO] slice completed: perf_20260424_000011.data
+[2026-04-24 00:00:33] [INFO] slice completed: perf_20260424_000022.data
+[2026-04-24 00:00:45] [INFO] slice completed: perf_20260424_000033.data
+[2026-04-24 00:00:56] [INFO] slice completed: perf_20260424_000045.data
+[2026-04-24 00:01:07] [INFO] slice completed: perf_20260424_000056.data
+[2026-04-24 00:01:18] [INFO] slice completed: perf_20260424_000107.data
+[2026-04-24 00:01:29] [INFO] slice completed: perf_20260424_000118.data
+[2026-04-24 00:01:40] [INFO] slice completed: perf_20260424_000129.data
+[2026-04-24 00:01:52] [INFO] slice completed: perf_20260424_000140.data
+[2026-04-24 00:02:03] [INFO] slice completed: perf_20260424_000152.data
+[2026-04-24 00:02:03] [INFO] cleanup executed
+[2026-04-24 00:02:14] [INFO] slice completed: perf_20260424_000203.data
+[2026-04-24 00:02:25] [INFO] slice completed: perf_20260424_000214.data
+[2026-04-24 00:02:36] [INFO] profiler daemon exiting
+[2026-04-24 00:02:36] [INFO] slice completed: perf_20260424_000225.data
+[2026-04-24 00:02:48] [INFO] slice completed: perf_20260424_000236.data
+[2026-04-24 00:02:59] [INFO] slice completed: perf_20260424_000248.data
+[2026-04-24 00:03:10] [INFO] slice completed: perf_20260424_000259.data
+[2026-04-24 00:03:21] [INFO] slice completed: perf_20260424_000310.data
+[2026-04-24 00:03:32] [INFO] slice completed: perf_20260424_000321.data
+[2026-04-24 00:03:43] [INFO] slice completed: perf_20260424_000332.data
+[2026-04-24 00:03:55] [INFO] slice completed: perf_20260424_000343.data
+[2026-04-24 00:03:55] [INFO] cleanup executed
+[2026-04-24 00:04:06] [INFO] slice completed: perf_20260424_000355.data
+[2026-04-24 00:04:17] [INFO] slice completed: perf_20260424_000406.data
+[2026-04-24 00:04:28] [INFO] slice completed: perf_20260424_000417.data
+[2026-04-24 00:04:39] [INFO] slice completed: perf_20260424_000428.data
+[2026-04-24 00:04:50] [INFO] slice completed: perf_20260424_000439.data
+[2026-04-24 00:05:02] [INFO] slice completed: perf_20260424_000450.data
+[2026-04-24 00:05:13] [INFO] slice completed: perf_20260424_000502.data
+[2026-04-24 00:05:24] [INFO] slice completed: perf_20260424_000513.data
+[2026-04-24 00:05:35] [INFO] slice completed: perf_20260424_000524.data
+[2026-04-24 00:05:46] [INFO] slice completed: perf_20260424_000535.data
+[2026-04-24 00:05:46] [INFO] cleanup executed
+[2026-04-24 00:05:57] [INFO] slice completed: perf_20260424_000546.data
+[2026-04-24 00:06:09] [INFO] slice completed: perf_20260424_000557.data
+[2026-04-24 00:06:20] [INFO] slice completed: perf_20260424_000609.data
+[2026-04-24 00:06:31] [INFO] slice completed: perf_20260424_000620.data
+[2026-04-24 00:06:42] [INFO] profiler daemon exiting
+[2026-04-24 00:06:42] [INFO] slice completed: perf_20260424_000631.data
+[2026-04-24 00:06:53] [INFO] slice completed: perf_20260424_000642.data
+[2026-04-24 00:07:04] [INFO] profiler daemon exiting
+[2026-04-24 00:07:04] [INFO] slice completed: perf_20260424_000653.data
+[2026-04-24 00:07:16] [INFO] slice completed: perf_20260424_000704.data
+[2026-04-24 00:07:27] [INFO] slice completed: perf_20260424_000716.data
+[2026-04-24 00:07:38] [INFO] slice completed: perf_20260424_000727.data
+[2026-04-24 00:07:38] [INFO] cleanup executed
+[2026-04-24 00:07:49] [INFO] profiler daemon exiting
+[2026-04-24 00:07:49] [INFO] slice completed: perf_20260424_000738.data
+[2026-04-24 00:08:00] [INFO] slice completed: perf_20260424_000749.data
+[2026-04-24 00:08:11] [INFO] slice completed: perf_20260424_000800.data
+[2026-04-24 00:08:23] [INFO] slice completed: perf_20260424_000811.data
+[2026-04-24 00:08:34] [INFO] slice completed: perf_20260424_000823.data
+[2026-04-24 00:08:45] [INFO] profiler daemon exiting
+[2026-04-24 00:08:45] [INFO] slice completed: perf_20260424_000834.data
+[2026-04-24 00:08:56] [INFO] profiler daemon exiting
+[2026-04-24 00:08:56] [INFO] slice completed: perf_20260424_000845.data
+[2026-04-24 00:09:07] [INFO] slice completed: perf_20260424_000856.data
+[2026-04-24 00:09:18] [INFO] slice completed: perf_20260424_000907.data
+[2026-04-24 00:09:30] [INFO] slice completed: perf_20260424_000918.data
+[2026-04-24 00:09:30] [INFO] cleanup executed
+[2026-04-24 00:09:41] [INFO] slice completed: perf_20260424_000930.data
+[2026-04-24 00:09:52] [INFO] slice completed: perf_20260424_000941.data
+[2026-04-24 00:10:03] [INFO] slice completed: perf_20260424_000952.data
+[2026-04-24 00:10:14] [INFO] slice completed: perf_20260424_001003.data
+Terminated
+[2026-04-24 00:10:26] [INFO] profiler daemon exiting
+[2026-04-24 00:10:26] [INFO] slice completed: perf_20260424_001014.data
+[2026-04-24 00:10:37] [INFO] slice completed: perf_20260424_001026.data
+[2026-04-24 00:10:48] [INFO] slice completed: perf_20260424_001037.data
+mpleted: perf_20260423_235901.data
+[2026-04-23 23:59:13] [INFO] cleanup executed
+[2026-04-23 23:59:24] [INFO] slice completed: perf_20260423_235913.data
+[2026-04-23 23:59:35] [INFO] slice completed: perf_20260423_235924.data
+[2026-04-23 23:59:46] [INFO] slice completed: perf_20260423_235935.data
+[2026-04-23 23:59:57] [INFO] profiler daemon exiting
+[2026-04-23 23:59:57] [INFO] slice completed: perf_20260423_235946.data
+[2026-04-24 00:00:08] [INFO] slice completed: perf_20260423_235957.data
+[2026-04-24 00:00:19] [INFO] slice completed: perf_20260424_000008.data
+[2026-04-24 00:00:30] [INFO] slice completed: perf_20260424_000019.data
+[2026-04-24 00:00:42] [INFO] slice completed: perf_20260424_000030.data
+[2026-04-24 00:00:53] [INFO] slice completed: perf_20260424_000042.data
+[2026-04-24 00:01:04] [INFO] slice completed: perf_20260424_000053.data
+[2026-04-24 00:01:04] [INFO] cleanup executed
+[2026-04-24 00:01:15] [INFO] slice completed: perf_20260424_000104.data
+[2026-04-24 00:01:26] [INFO] slice completed: perf_20260424_000115.data
+[2026-04-24 00:01:37] [INFO] slice completed: perf_20260424_000126.data
+[2026-04-24 00:01:49] [INFO] slice completed: perf_20260424_000137.data
+[2026-04-24 00:02:00] [INFO] slice completed: perf_20260424_000149.data
+[2026-04-24 00:02:11] [INFO] slice completed: perf_20260424_000200.data
+[2026-04-24 00:02:22] [INFO] slice completed: perf_20260424_000211.data
+[2026-04-24 00:02:33] [INFO] profiler daemon exiting
+[2026-04-24 00:02:33] [INFO] slice completed: perf_20260424_000222.data
+[2026-04-24 00:02:44] [INFO] slice completed: perf_20260424_000233.data
+[2026-04-24 00:02:56] [INFO] slice completed: perf_20260424_000244.data
+[2026-04-24 00:02:56] [INFO] cleanup executed
+[2026-04-24 00:03:07] [INFO] slice completed: perf_20260424_000256.data
+[2026-04-24 00:03:18] [INFO] slice completed: perf_20260424_000307.data
+[2026-04-24 00:03:29] [INFO] slice completed: perf_20260424_000318.data
+[2026-04-24 00:03:40] [INFO] slice completed: perf_20260424_000329.data
+[2026-04-24 00:03:51] [INFO] slice completed: perf_20260424_000340.data
+[2026-04-24 00:04:03] [INFO] slice completed: perf_20260424_000351.data
+[2026-04-24 00:04:14] [INFO] slice completed: perf_20260424_000403.data
+[2026-04-24 00:04:25] [INFO] slice completed: perf_20260424_000414.data
+[2026-04-24 00:04:36] [INFO] slice completed: perf_20260424_000425.data
+[2026-04-24 00:04:47] [INFO] slice completed: perf_20260424_000436.data
+[2026-04-24 00:04:47] [INFO] cleanup executed
+[2026-04-24 00:04:58] [INFO] slice completed: perf_20260424_000447.data
+[2026-04-24 00:05:10] [INFO] slice completed: perf_20260424_000458.data
+[2026-04-24 00:05:21] [INFO] slice completed: perf_20260424_000510.data
+[2026-04-24 00:05:32] [INFO] slice completed: perf_20260424_000521.data
+[2026-04-24 00:05:43] [INFO] slice completed: perf_20260424_000532.data
+[2026-04-24 00:05:54] [INFO] slice completed: perf_20260424_000543.data
+[2026-04-24 00:06:06] [INFO] slice completed: perf_20260424_000554.data
+[2026-04-24 00:06:17] [INFO] slice completed: perf_20260424_000606.data
+[2026-04-24 00:06:28] [INFO] slice completed: perf_20260424_000617.data
+[2026-04-24 00:06:39] [INFO] profiler daemon exiting
+[2026-04-24 00:06:39] [INFO] slice completed: perf_20260424_000628.data
+[2026-04-24 00:06:39] [INFO] cleanup executed
+[2026-04-24 00:06:50] [INFO] slice completed: perf_20260424_000639.data
+[2026-04-24 00:07:01] [INFO] profiler daemon exiting
+[2026-04-24 00:07:01] [INFO] slice completed: perf_20260424_000650.data
+[2026-04-24 00:07:13] [INFO] slice completed: perf_20260424_000701.data
+[2026-04-24 00:07:24] [INFO] slice completed: perf_20260424_000713.data
+[2026-04-24 00:07:35] [INFO] slice completed: perf_20260424_000724.data
+[2026-04-24 00:07:46] [INFO] slice completed: perf_20260424_000735.data
+[2026-04-24 00:07:57] [INFO] profiler daemon exiting
+[2026-04-24 00:07:57] [INFO] slice completed: perf_20260424_000746.data
+[2026-04-24 00:08:08] [INFO] slice completed: perf_20260424_000757.data
+[2026-04-24 00:08:20] [INFO] slice completed: perf_20260424_000808.data
+[2026-04-24 00:08:31] [INFO] slice completed: perf_20260424_000820.data
+[2026-04-24 00:08:31] [INFO] cleanup executed
+[2026-04-24 00:08:42] [INFO] slice completed: perf_20260424_000831.data
+[2026-04-24 00:08:53] [INFO] profiler daemon exiting
+[2026-04-24 00:08:53] [INFO] slice completed: perf_20260424_000842.data
+[2026-04-24 00:09:04] [INFO] slice completed: perf_20260424_000853.data
+[2026-04-24 00:09:15] [INFO] slice completed: perf_20260424_000904.data
+[2026-04-24 00:09:27] [INFO] slice completed: perf_20260424_000915.data
+[2026-04-24 00:09:38] [INFO] slice completed: perf_20260424_000927.data
+[2026-04-24 00:09:49] [INFO] slice completed: perf_20260424_000938.data
+[2026-04-24 00:10:00] [INFO] slice completed: perf_20260424_000949.data
+[2026-04-24 00:10:11] [INFO] slice completed: perf_20260424_001000.data
+[2026-04-24 00:10:23] [INFO] slice completed: perf_20260424_001011.data
+[2026-04-24 00:10:23] [INFO] cleanup executed
+Terminated
+[2026-04-24 00:10:26] [INFO] profiler daemon exiting
+[2026-04-24 00:10:26] [INFO] slice completed: perf_20260424_001023.data
+[2026-04-24 00:10:37] [INFO] slice completed: perf_20260424_001026.data
+[2026-04-24 00:10:48] [INFO] slice completed: perf_20260424_001037.data
+=== Test 1 Complete ===
