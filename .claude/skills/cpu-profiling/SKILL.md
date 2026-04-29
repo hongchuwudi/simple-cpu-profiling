@@ -5,7 +5,7 @@ description: Use this skill whenever the user wants to do anything with the cont
 
 ## Overview
 
-A 7x24 continuous CPU profiling system at `/home/hongchu/code/simple-cpu-profiling` based on Linux `perf`. The daemon records system-wide call-chain samples in fixed 10-second slices (~1.4 MB each, ~6 slices/min) and auto-cleans data older than 24 hours. Flamegraphs can be generated from any recorded time slice.
+A 7x24 continuous CPU profiling system at `/home/hongchu/code/simple-cpu-profiling` based on Linux `perf`. The daemon records system-wide call-chain samples in fixed 10-second slices (~1.4 MB each, ~6 slices/min) and auto-cleans data older than 24 hours. Flamegraphs can be generated from any recorded time slice. A Vue 3 Web Viewer (Python backend + frontend) provides file browsing, SVG zoom/pan, and function search highlighting.
 
 ## Project Structure
 
@@ -17,6 +17,21 @@ simple-cpu-profiling/
 ├── scripts/
 │   ├── profiler_daemon.sh         # Daemon: {start|stop|status}
 │   └── generate_flamegraph.sh     # Flamegraph generator [HH:MM | HH:MM:SS]
+├── backend/
+│   ├── server.py                  # Python HTTP API (zero deps, port 5174)
+│   └── run.sh                     # Start backend script
+├── front/
+│   ├── src/
+│   │   ├── App.vue                # Root component
+│   │   ├── main.js                # Entry point
+│   │   ├── api/files.js           # API client
+│   │   └── components/
+│   │       ├── FileList.vue       # Left sidebar file list
+│   │       ├── FlameGraphViewer.vue # SVG viewer (zoom/pan/search)
+│   │       └── SearchBar.vue      # Search bar (debounced)
+│   ├── dist/                      # Build output
+│   ├── package.json
+│   └── vite.config.js             # Vite config (with /api proxy)
 ├── log/profiler/
 │   ├── perf_*.data                # Raw perf data slices (YYYYMMDD_HHMMSS)
 │   ├── flamegraph_*.svg           # Generated flamegraphs
@@ -71,6 +86,26 @@ CLEANUP_INTERVAL=600        # cleanup check interval
 
 Apply changes: restart the daemon (`stop` then `start`).
 
+### Web Viewer
+
+```bash
+# Start backend API server (127.0.0.1:5174)
+bash backend/run.sh
+
+# Start frontend dev server (5173, proxies /api → backend)
+cd front && npm run dev
+
+# Build production static files
+cd front && npm run build
+# Output in front/dist/
+```
+
+**API endpoints** (backend/server.py):
+- `GET /api/files` → list of flamegraph SVG files (JSON: name, size, modified)
+- `GET /api/files/:name` → SVG file content
+
+**Frontend features**: file list (sorted by time), SVG zoom/pan via mouse, function search with text highlighting.
+
 ## Architecture
 
 **profiler_daemon.sh** — infinite loop:
@@ -84,6 +119,20 @@ perf record -a -g -F 99 -o perf_YYYYMMDD_HHMMSS.data -- sleep 10
 
 ```
 perf script -i <data> | stackcollapse-perf.pl | flamegraph.pl > flamegraph.svg
+```
+
+**Web Viewer** — backend + frontend:
+
+```
+backend/server.py (Python http.server, port 5174)
+  GET /api/files        → JSON list of flamegraph_*.svg
+  GET /api/files/:name  → SVG content
+  Path traversal protection (rejects ../  and /)
+
+front (Vue 3 + Vite, port 5173)
+  FileList          → fetch /api/files, display sorted list
+  FlameGraphViewer  → fetch /api/files/:name, render SVG with zoom/pan
+  SearchBar         → debounce 300ms, highlight matching SVG text elements
 ```
 
 ## Troubleshooting
@@ -120,6 +169,21 @@ Wait ~20 seconds for at least one slice to complete, or check the daemon log:
 
 ```bash
 tail -20 log/profiler/profiler.log
+```
+
+### Web Viewer shows "获取文件列表失败"
+
+Ensure the backend server is running:
+
+```bash
+bash backend/run.sh
+# Should print: FlameGraph API server running at http://127.0.0.1:5174
+```
+
+Also verify SVG files exist:
+
+```bash
+ls log/profiler/flamegraph_*.svg
 ```
 
 ### Flamegraph filename contains colons
